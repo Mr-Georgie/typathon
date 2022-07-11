@@ -1,0 +1,12 @@
+<p className="text-white font-bold font-serif text-lg text-center">
+  How many words can you type in:
+</p>
+<p
+  className="text-white font-bold font-serif text-6xl text-center animate-pulse"
+>
+  00:40
+</p>
+<p className="text-white font-bold font-serif text-lg text-center">seconds</p>
+
+// useEffect(() => { // setTimeout(() => { // setIsLoading(false); // }, 4700);
+// }, []);

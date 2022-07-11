@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,700&display=swap");
+
+@tailwind base;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  @apply dark:bg-black bg-[#aaf8fa] /*  bg-white/[.5]; */;
+}
+
+body {
+  background-image: url("images/anime2.png");
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+@tailwind components;
+
+.bg-glass {
+  @apply mt-[130px] w-[500px] h-[440px] dark:bg-white/[.5] bg-[#A1CA21]/[.5] backdrop-blur-lg rounded-lg drop-shadow-lg; /*bg-[#F4A5B1]*/
+}
+
+.btn {
+  @apply cursor-pointer text-black p-4 w-full text-center 
+  rounded hover:bg-black/[.4] /*border-slate-400 border*/ bg-[#F6E5CF]
+  transition ease-out duration-500 shadow-xl;
+}
+
+@tailwind utilities;
+
+.loading-gif {
+  background-image: url("images/anime2.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  height: 100vh;
+}
