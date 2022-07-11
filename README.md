@@ -2,6 +2,10 @@
 
 Typathon is a simple speed typing game built with ReactJS, Vite, TailwindCSS & HeadlessUI. Built as a submission for the PlanetScaleXHashnode Hackathon July 2022
 
+## Completion
+
+30% done ...
+
 ## Preview
 
 ## Description
