@@ -7,6 +7,7 @@ Typathon is a simple speed typing game built with ReactJS, Vite, TailwindCSS & H
 30% done ...
 
 ## Preview
+![typathon-ui4](https://user-images.githubusercontent.com/28518667/178255670-6bd264f8-0b85-4489-904e-e36a546457b0.gif)
 
 ## Description
 
